@@ -43,14 +43,14 @@ This repository contains the main backend for the application. It serves as the 
     ```bash
     php artisan serve
 
+## Role Management
+- Super Admin: Full access to the CMS.
+- Blog Admin: Can post and manage blog posts.
+- Vendor Admin: Can purchase tickets in bulk.
+- Fans: Can buy tickets from the frontend.
+
 ## API Endpoints
 
-
-## Role Management
-  Super Admin: Full access to the CMS.
-  Blog Admin: Can post and manage blog posts.
-  Vendor Admin: Can purchase tickets in bulk.
-  Fans: Can buy tickets from the frontend.
 
 
 
