@@ -1,0 +1,77 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/.zed
+
+/vendor/
+/node_modules/
+
+# Laravel specific
+/public/storage
+/storage/*.key
+/storage/*.log
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Environment files
+.env
+.env.*.backup
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Composer files
+composer.lock
+
+# NPM/Yarn files
+yarn.lock
+package-lock.json
+
+# Cache and logs
+*.log
+*.cache
+*.phpunit.result.cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup and temporary files
+*.bak
+*.swp
+*.tmp
+*.sass-cache
+
+# Laravel Horizon (if used)
+horizon/*.lock
+
+# Deployment-specific
+.env.backup
+.phpunit.result.cache
+
+# Ignoring Swoole-related files (if using Laravel Octane)
+storage/laravel-exec
+
+# Exclude cached config and routes (optional)
+/bootstrap/cache/*.php
